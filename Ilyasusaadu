@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ha">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account - My Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #c3f0c8, #e8f8ec);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      width: 90%;
+      max-width: 400px;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #1b5e20;
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+      color: #2e7d32;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 15px 0;
+      border: 1px solid #a5d6a7;
+      border-radius: 8px;
+    }
+    button {
+      width: 100%;
+      background-color: #43a047;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2e7d32;
+    }
+    p {
+      text-align: center;
+      margin-top: 15px;
+    }
+    a {
+      color: #1b5e20;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Yi Rajista</h2>
+    <form>
+      <label>Imel:</label>
+      <input type="email" placeholder="Shigar da imel ɗinka" required>
+
+      <label>Kalmar Sirri:</label>
+      <input type="password" placeholder="Shigar da kalmar sirri" required>
+
+      <label>Tabbatar da Kalmar Sirri:</label>
+      <input type="password" placeholder="Sake shigar da kalmar sirri" required>
+
+      <button type="submit">Yi Rajista</button>
+    </form>
+
+    <p>Ka riga ka yi rajista? <a href="login.html">Shiga yanzu</a></p>
+  </div>
+</body>
+</html>
